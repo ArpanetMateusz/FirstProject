@@ -71,13 +71,31 @@
 // console.log(my_object.name)
 // console.log(my_object.crazy_multiplication(4,4))
 
-var my_object = {
-    multiplication: function(a,b){
-        return a*b
-    },
-    multiplication2: (a,b) => {
-        return window.my_object.multiplication (a,b)*100
-    }
-}
-console.log(my_object.multiplication(3,4))
-console.log(my_object.multiplication2(3,4))
+// var my_object = {
+//     multiplication: function(a,b){
+//         return a*b
+//     },
+//     multiplication2: (a,b) => {
+//         return window.my_object.multiplication (a,b)*100
+//     }
+// }
+// console.log(my_object.multiplication(3,4))
+// console.log(my_object.multiplication2(3,4))
+
+// let cat = 'Adam has a cat'
+// console.log(cat.length)
+
+// let cat = 'Adam has a cat'
+// console.log(cat.search('cat'))
+
+// let cat = 'Adam has a cat'
+// console.log(cat.replace('cat', 'dog', ))
+
+// let cat = 'ADAM HAS A CAT'
+// console.log(cat.toLocaleLowerCase())
+
+// let cat = 'Adam has a cat'
+// console.log(cat.toUpperCase())
+
+// let cat = 'Adam has a cat'
+// console.log(cat.split(' '))
