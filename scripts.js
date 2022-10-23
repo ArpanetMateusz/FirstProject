@@ -82,20 +82,17 @@
 // console.log(my_object.multiplication(3,4))
 // console.log(my_object.multiplication2(3,4))
 
+
+// ---------------------------------------------------------
+
+
 // let cat = 'Adam has a cat'
+
 // console.log(cat.length)
-
-// let cat = 'Adam has a cat'
 // console.log(cat.search('cat'))
-
-// let cat = 'Adam has a cat'
 // console.log(cat.replace('cat', 'dog', ))
-
-// let cat = 'ADAM HAS A CAT'
 // console.log(cat.toLocaleLowerCase())
-
-// let cat = 'Adam has a cat'
 // console.log(cat.toUpperCase())
-
-// let cat = 'Adam has a cat'
 // console.log(cat.split(' '))
+
+
