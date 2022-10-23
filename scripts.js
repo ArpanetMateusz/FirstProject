@@ -24,14 +24,60 @@
 // console.log(my_Variable[0].firstName)
 // console.log(my_Variable[1].firstName)
 
-let my_Variable = {
-    "people": [
-        {"firstName": "Mateusz", "secondName": "Kuska"},
-        {"firstName": "Mikołaj", "secondName": "Kuska"},
-        {"firstName": "Nikodem", "secondName": "Kuska"}
-    ],
-    "another": "somebody",
-    "text": "Wiem, że nic nie wiem"
-}
+// let my_Variable = {
+//     "people": [
+//         {"firstName": "Mateusz", "secondName": "Kuska"},
+//         {"firstName": "Mikołaj", "secondName": "Kuska"},
+//         {"firstName": "Nikodem", "secondName": "Kuska"}
+//     ],
+//     "another": "somebody",
+//     "text": "Wiem, że nic nie wiem"
+// }
 
-console.log(my_Variable.people[0])
+// console.log(my_Variable.people[0])
+
+
+// function my_function(somethink){
+//     alert(somethink)
+// }
+
+// my_function('yoyoy')
+
+// function multiplication(a, b){
+
+//     return a*b
+// }
+// let result = multiplication(3,3)
+// console.log(result)
+
+// let multiplication = (a, b) => {
+//     return a*b
+// }
+
+// let multiplication = (a, b) => a * b
+
+// console.log(multiplication(3,4))
+
+// let my_object = {
+//     name: 'my_object',
+//     multiplication: function(a,b){
+//         return a*b
+//     },
+//     crazy_multiplication: function(a,b){
+//         return this.multiplication(a,b)*100
+//     }
+// }
+
+// console.log(my_object.name)
+// console.log(my_object.crazy_multiplication(4,4))
+
+var my_object = {
+    multiplication: function(a,b){
+        return a*b
+    },
+    multiplication2: (a,b) => {
+        return window.my_object.multiplication (a,b)*100
+    }
+}
+console.log(my_object.multiplication(3,4))
+console.log(my_object.multiplication2(3,4))
