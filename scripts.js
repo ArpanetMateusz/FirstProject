@@ -96,3 +96,32 @@
 // console.log(cat.split(' '))
 
 
+// let ar = ['a','b','c']
+
+// console.log(ar.push('d'), ar) - dodaje na końcu tablicy 
+// console.log(ar.shift(), ar) - usowa pierwszy element tablicy
+// console.log(ar.unshift('x'), ar) - dodaje element na początku tablicy
+// console.log(ar.push('d'), ar)
+
+// let new_Array = ar.forEach((x,y) => {
+//     console.log(x, y)
+// })
+
+// let newArray = ar.map((x,y) => {
+//     return `${x}x`
+// })
+
+// console.log(newArray)
+
+// let ar1 = [1,2,3]
+// let result1 = ar1.filter((x) => {
+//     return x > 1
+// })
+
+// console.log(result1)
+
+// let ar = [1,2,3,4]
+// let result = ar.reduce((x,y) => x+y
+// )
+
+// console.log(result)
